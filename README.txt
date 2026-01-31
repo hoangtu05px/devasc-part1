@@ -24,11 +24,4 @@ Cấu hình mạng cơ bản và tự động hóa bằng Python.
 show vlan brief
 show ip ospf neighbor
 
-DEVASC Part 2 – Python REST API
 
-## Description
-Python script sử dụng REST API để thực hiện:
-- GET dữ liệu
-- POST dữ liệu
-
-## API
