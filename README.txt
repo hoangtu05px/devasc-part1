@@ -1,7 +1,34 @@
-DEVASC Part 1
+DEVASC Part 1 – Network Automation
 
-- VLAN 10 to 20 configured on SW1 and SW2
-- OSPF process 1 area 0 configured on R1 and R2
-- Python (Netmiko) used to automate OSPF configuration
-- OSPF neighbor state reached FULL
+## Description
+Cấu hình mạng cơ bản và tự động hóa bằng Python.
 
+## VLAN
+- VLAN: 10 – 20
+- Cấu hình trên: SW1, SW2
+- VLAN name: tùy ý
+
+## Routing
+- Routing protocol: OSPF
+- Process ID: 1
+- Area: 0
+- Thiết bị: R1, R2
+- Trạng thái neighbor: FULL
+
+## Automation
+- Sử dụng Python (Netmiko)
+- Tự động cấu hình OSPF trên router
+
+## Verification
+```bash
+show vlan brief
+show ip ospf neighbor
+
+DEVASC Part 2 – Python REST API
+
+## Description
+Python script sử dụng REST API để thực hiện:
+- GET dữ liệu
+- POST dữ liệu
+
+## API
